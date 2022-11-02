@@ -86,7 +86,7 @@ symbol = " "
 
 [java]
 symbol = " "
-format = "[$symbol java]($style)"
+format = "[$symbol java ]($style)"
 
 [lua]
 symbol = " "
