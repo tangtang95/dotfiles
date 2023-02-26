@@ -12,6 +12,7 @@ $fill\
 $nodejs\
 $java\
 $python\
+$rust\
 $terraform\
 $cmd_duration $jobs\
 $line_break\
@@ -104,6 +105,7 @@ format = "[$symbol($version )]($style)"
 
 [rust]
 symbol = " "
+format = "[$symbol($version )]($style)"
 
 [terraform]
 symbol = "💨"
