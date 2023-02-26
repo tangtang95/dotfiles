@@ -13,6 +13,7 @@ $nodejs\
 $java\
 $python\
 $rust\
+$cmake\
 $terraform\
 $cmd_duration $jobs\
 $line_break\
@@ -105,6 +106,9 @@ format = "[$symbol($version )]($style)"
 
 [rust]
 symbol = " "
+format = "[$symbol($version )]($style)"
+
+[cmake]
 format = "[$symbol($version )]($style)"
 
 [terraform]
