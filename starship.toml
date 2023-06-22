@@ -102,7 +102,7 @@ symbol = " "
 
 [python]
 symbol = " "
-format = "[$symbol($version )]($style)"
+format = '[$symbol($version )\($virtualenv\)]($style)'
 
 [rust]
 symbol = " "
