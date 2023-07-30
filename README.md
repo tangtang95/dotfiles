@@ -2,6 +2,20 @@
 
 My Windows configuration files
 
+## Git
+My global git config:
+```
+[core]
+  editor = nvim
+[alias]
+	prb = pull --rebase
+	pfl = push --force-with-lease
+	log1l = log --oneline
+[push]
+	default = current
+	autoSetupRemote = true  
+```
+
 ## Cmder
 
 Install *cmder-mini* via *Chocolatey*: `choco install cmdermini`
