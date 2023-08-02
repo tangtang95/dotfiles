@@ -1,0 +1,92 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1690979486000)\/",
+                "DisplayHint": 2,
+                "DateTime": "mercoledç 2 agosto 2023 14:31:26"
+            },
+            "Manifests": 1886
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": {
+                "value": "\/Date(1690979446000)\/",
+                "DisplayHint": 2,
+                "DateTime": "mercoledç 2 agosto 2023 14:30:46"
+            },
+            "Manifests": 1215
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1690899437000)\/",
+                "DisplayHint": 2,
+                "DateTime": "martedç 1 agosto 2023 16:17:17"
+            },
+            "Manifests": 280
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "23.01",
+            "Updated": "\/Date(1690819753397)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "bat",
+            "Version": "0.23.0",
+            "Updated": "\/Date(1690981692704)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.41.0.3",
+            "Updated": "\/Date(1690819794979)\/"
+        },
+        {
+            "Info": "",
+            "Source": "nerd-fonts",
+            "Name": "Monofur-NF",
+            "Version": "3.0.2",
+            "Updated": "\/Date(1690821345833)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.9.1",
+            "Updated": "\/Date(1690820146646)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ripgrep",
+            "Version": "13.0.0",
+            "Updated": "\/Date(1690981760235)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.16.0",
+            "Updated": "\/Date(1690821360371)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vscode",
+            "Version": "1.80.2",
+            "Updated": "\/Date(1690820508746)\/"
+        }
+    ]
+}
