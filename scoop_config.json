@@ -4,29 +4,29 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1690979486000)\/",
+                "value": "\/Date(1691584229000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mercoledç 2 agosto 2023 14:31:26"
+                "DateTime": "mercoledç 9 agosto 2023 14:30:29"
             },
-            "Manifests": 1886
+            "Manifests": 1888
         },
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1690979446000)\/",
+                "value": "\/Date(1691584219000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mercoledç 2 agosto 2023 14:30:46"
+                "DateTime": "mercoledç 9 agosto 2023 14:30:19"
             },
-            "Manifests": 1215
+            "Manifests": 1217
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
             "Updated": {
-                "value": "\/Date(1690899437000)\/",
+                "value": "\/Date(1691342024000)\/",
                 "DisplayHint": 2,
-                "DateTime": "martedç 1 agosto 2023 16:17:17"
+                "DateTime": "domenica 6 agosto 2023 19:13:44"
             },
             "Manifests": 280
         }
@@ -55,6 +55,20 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "gitui",
+            "Version": "0.23.0",
+            "Updated": "\/Date(1691585916528)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "jq",
+            "Version": "1.6",
+            "Updated": "\/Date(1691587267060)\/"
+        },
+        {
+            "Info": "",
             "Source": "nerd-fonts",
             "Name": "Monofur-NF",
             "Version": "3.0.2",
@@ -73,6 +87,13 @@
             "Name": "ripgrep",
             "Version": "13.0.0",
             "Updated": "\/Date(1690981760235)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "rustup",
+            "Version": "1.26.0",
+            "Updated": "\/Date(1690982065026)\/"
         },
         {
             "Info": "",
