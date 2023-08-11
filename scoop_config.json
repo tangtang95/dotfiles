@@ -4,9 +4,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1691584229000)\/",
+                "value": "\/Date(1691685159000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mercoledç 9 agosto 2023 14:30:29"
+                "DateTime": "giovedÔøΩ 10 agosto 2023 18:32:39"
             },
             "Manifests": 1888
         },
@@ -14,9 +14,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1691584219000)\/",
+                "value": "\/Date(1691684829000)\/",
                 "DisplayHint": 2,
-                "DateTime": "mercoledç 9 agosto 2023 14:30:19"
+                "DateTime": "giovedÔøΩ 10 agosto 2023 18:27:09"
             },
             "Manifests": 1217
         },
@@ -49,6 +49,34 @@
         {
             "Info": "",
             "Source": "main",
+            "Name": "bottom",
+            "Version": "0.9.4",
+            "Updated": "\/Date(1691687812813)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "delta",
+            "Version": "0.16.5",
+            "Updated": "\/Date(1691588460179)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "dust",
+            "Version": "0.8.6",
+            "Updated": "\/Date(1691687927044)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.42.0",
+            "Updated": "\/Date(1691687328601)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
             "Name": "git",
             "Version": "2.41.0.3",
             "Updated": "\/Date(1690819794979)\/"
@@ -69,6 +97,20 @@
         },
         {
             "Info": "",
+            "Source": "extras",
+            "Name": "jqp",
+            "Version": "0.4.0",
+            "Updated": "\/Date(1691587440381)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "lsd",
+            "Version": "0.23.1",
+            "Updated": "\/Date(1691686531813)\/"
+        },
+        {
+            "Info": "",
             "Source": "nerd-fonts",
             "Name": "Monofur-NF",
             "Version": "3.0.2",
@@ -81,12 +123,12 @@
             "Version": "0.9.1",
             "Updated": "\/Date(1690820146646)\/"
         },
-	{
+        {
             "Info": "",
             "Source": "main",
-            "Name": "dust",
-            "Version": "0.8.6",
-            "Updated": "\/Date(1691687927044)\/"
+            "Name": "procs",
+            "Version": "0.14.0",
+            "Updated": "\/Date(1691687607479)\/"
         },
         {
             "Info": "",
@@ -115,6 +157,13 @@
             "Name": "vscode",
             "Version": "1.80.2",
             "Updated": "\/Date(1690820508746)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.2",
+            "Updated": "\/Date(1691686687861)\/"
         }
     ]
 }
