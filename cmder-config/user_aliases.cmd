@@ -13,6 +13,5 @@ vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 vim=nvim $*  
 ls=exa $*  
-sudo=runas /noprofile /user:Administrator $*  
 paste=powershell -command "Get-ClipBoard"
 cdws=cd "%MY_WORKSPACE%"
