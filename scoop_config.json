@@ -160,6 +160,13 @@
         },
         {
             "Info": "",
+            "Source": "main",
+            "Name": "tldr",
+            "Version": "0.6.1",
+            "Updated": "\/Date(1691743319988)\/"
+        },
+        {
+            "Info": "",
             "Source": "extras",
             "Name": "vscode",
             "Version": "1.80.2",
