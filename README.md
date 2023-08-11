@@ -18,7 +18,7 @@ My global git config:
 
 ## Cmder
 
-Install *cmder-mini* via *Chocolatey*: `choco install cmdermini`
+Install *cmder-mini* via *Scoop*: `scoop install cmder`
 
 ## Starship
 
@@ -58,3 +58,19 @@ load(io.popen('starship init cmd'):read("*a"))()
     "useAcrylic": false
 }
 ```
+## Other useful development CLI tools for specific languages
+
+This is a list of tools that can be installed through [scoop](https://scoop.sh):
+
+ - [jabba](https://github.com/Jabba-Team/jabba), java version manager
+ - [maven](https://maven.apache.org/), java project manager tool
+ - [nvm](https://github.com/coreybutler/nvm-windows), node and npm version manager
+ - [miniconda3](https://docs.conda.io/en/latest/miniconda.html), python environment manager
+ - [poetry](https://python-poetry.org/), python dependency manager
+ - [rustup](https://rustup.rs/), rust manager tool
+ - [cmake](https://cmake.org/), c and cpp toolset to build, test and package software
+ - [conan](https://conan.io/), c and cpp package manager
+ - [kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/), kubernetes cli
+ - [k9s](https://github.com/derailed/k9s), kubernetes tui
+ - [lazydocker](https://github.com/jesseduffield/lazydocker), docker tui
+ - [aws](https://aws.amazon.com/cli/), aws cli tool
