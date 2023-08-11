@@ -4,9 +4,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1691685159000)\/",
+                "value": "\/Date(1691742340000)\/",
                 "DisplayHint": 2,
-                "DateTime": "giovedÔøΩ 10 agosto 2023 18:32:39"
+                "DateTime": "venerdç 11 agosto 2023 10:25:40"
             },
             "Manifests": 1888
         },
@@ -14,9 +14,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1691684829000)\/",
+                "value": "\/Date(1691742310000)\/",
                 "DisplayHint": 2,
-                "DateTime": "giovedÔøΩ 10 agosto 2023 18:27:09"
+                "DateTime": "venerdç 11 agosto 2023 10:25:10"
             },
             "Manifests": 1217
         },
@@ -87,6 +87,13 @@
             "Name": "gitui",
             "Version": "0.23.0",
             "Updated": "\/Date(1691585916528)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "gsudo",
+            "Version": "2.3.0",
+            "Updated": "\/Date(1691743059374)\/"
         },
         {
             "Info": "",
