@@ -73,4 +73,8 @@ This is a list of tools that can be installed through [scoop](https://scoop.sh):
  - [kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/), kubernetes cli
  - [k9s](https://github.com/derailed/k9s), kubernetes tui
  - [lazydocker](https://github.com/jesseduffield/lazydocker), docker tui
+ - [kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/), kubernetes cli
+ - [k9s](https://github.com/derailed/k9s), kubernetes tui
+ - [lazydocker](https://github.com/jesseduffield/lazydocker), docker tui
  - [aws](https://aws.amazon.com/cli/), aws cli tool
+ - [usql](https://github.com/xo/usql), universal sql client with autocompletion and syntax highlighting
