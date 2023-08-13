@@ -4,9 +4,9 @@
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
             "Updated": {
-                "value": "\/Date(1691854604000)\/",
+                "value": "\/Date(1691933802000)\/",
                 "DisplayHint": 2,
-                "DateTime": "sabato 12 agosto 2023 17:36:44"
+                "DateTime": "domenica 13 agosto 2023 15:36:42"
             },
             "Manifests": 1888
         },
@@ -14,9 +14,9 @@
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
             "Updated": {
-                "value": "\/Date(1691843401000)\/",
+                "value": "\/Date(1691929845000)\/",
                 "DisplayHint": 2,
-                "DateTime": "sabato 12 agosto 2023 14:30:01"
+                "DateTime": "domenica 13 agosto 2023 14:30:45"
             },
             "Manifests": 1217
         },
@@ -182,9 +182,9 @@
         {
             "Info": "",
             "Source": "main",
-            "Name": "tldr",
-            "Version": "0.6.1",
-            "Updated": "\/Date(1691743319988)\/"
+            "Name": "tealdeer",
+            "Version": "1.6.1",
+            "Updated": "\/Date(1691937518334)\/"
         },
         {
             "Info": "",
