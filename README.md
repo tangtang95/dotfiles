@@ -8,12 +8,12 @@ My global git config:
 [core]
     editor = nvim
 [alias]
-	prb = pull --rebase
-	pfl = push --force-with-lease
-	log1l = log --oneline
+    prb = pull --rebase
+    pfl = push --force-with-lease
+    log1l = log --oneline
 [push]
-	default = current
-	autoSetupRemote = true  
+    default = current
+    autoSetupRemote = true  
 ```
 
 ## Cmder
