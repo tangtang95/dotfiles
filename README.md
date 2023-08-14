@@ -6,7 +6,7 @@ My Windows configuration files
 My global git config:
 ```
 [core]
-  editor = nvim
+    editor = nvim
 [alias]
 	prb = pull --rebase
 	pfl = push --force-with-lease
@@ -70,6 +70,7 @@ This is a list of tools that can be installed through [scoop](https://scoop.sh):
  - [rustup](https://rustup.rs/), rust manager tool
  - [cmake](https://cmake.org/), c and cpp toolset to build, test and package software
  - [conan](https://conan.io/), c and cpp package manager
+ - [vcpkg](https://vcpkg.io/), c and cpp package manager for windows (not in scoop)
  - [kubectl](https://kubernetes.io/docs/user-guide/kubectl-overview/), kubernetes cli
  - [k9s](https://github.com/derailed/k9s), kubernetes tui
  - [lazydocker](https://github.com/jesseduffield/lazydocker), docker tui
