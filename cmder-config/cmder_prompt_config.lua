@@ -59,6 +59,4 @@ dirty_color = "\x1b[33;3m"
 conflict_color = "\x1b[31;1m"
 unknown_color = "\x1b[37;1m" -- White = No VCS Status Branch Color
 
-os.setenv('STARSHIP_CONFIG', 'C:\\Users\\Tangtang\\dotfiles\\starship.toml')
-
 load(io.popen('starship init cmd'):read("*a"))()

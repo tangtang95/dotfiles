@@ -18,7 +18,10 @@ param(
     [switch]$Cpp,
 
     [Parameter()]
-    [switch]$All
+    [switch]$All,
+    
+    [Parameter()]
+    [switch]$DryRun
 )
 
 function RefreshEnvPath {
@@ -36,39 +39,51 @@ catch {
     exit -1
 }
 
-scoop import .\scoop_config.json
-scoop update --all
-RefreshEnvPath
+if (-not $DryRun) {
+    # scoop import .\scoop_config.json
+    scoop update --all
+    RefreshEnvPath
 
-if ($JS -or $All) {
-    scoop install nvm
-}
-
-if ($Java -or $All) {
-    scoop install jabba
-    scoop install maven
-}
-
-if ($Python -or $All) {
-    scoop install python
-    scoop install poetry
-}
-
-if ($Cpp -or $All) {
-    scoop install cmake
-    scoop install make
-    scoop install mingw
-}
-
-if ($Rust -or $All) {
-    scoop install rustup
-}
-
-if ($Devops -or $All) {
-    $devtools = "kubectl", "aws", "k9s", "lazydocker"
-    foreach ($tool in $devtools) {
-        scoop install $tool
+    if ($JS -or $All) {
+        scoop install nvm
     }
+
+    if ($Java -or $All) {
+        scoop install jabba
+        scoop install maven
+    }
+
+    if ($Python -or $All) {
+        scoop install python
+        scoop install poetry
+    }
+
+    if ($Cpp -or $All) {
+        scoop install cmake
+        scoop install make
+        scoop install mingw
+    }
+
+    if ($Rust -or $All) {
+        scoop install rustup
+    }
+
+    if ($Devops -or $All) {
+        $devtools = "kubectl", "aws", "k9s", "lazydocker"
+        foreach ($tool in $devtools) {
+            scoop install $tool
+        }
+    }
+} else {
+    Write-Output "DRY_RUN: Installing CLI tools and devtools..."
+}
+
+Write-Output "Setup Starship env variables"
+if (-not $DryRun) {
+    Write-Output "Set STARSHIP_CONFIG to: $PWD\starship.toml" 
+    [System.Environment]::SetEnvironmentVariable('STARSHIP_CONFIG', "$PWD\starship.toml", 'User')
+} else {
+    Write-Output "DRY_RUN: Set STARSHIP_CONFIG to: $PWD\starship.toml" 
 }
 
 exit 0
