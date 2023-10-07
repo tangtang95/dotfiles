@@ -1,197 +1,197 @@
 {
-    "buckets": [
-        {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": {
-                "value": "\/Date(1691933802000)\/",
-                "DisplayHint": 2,
-                "DateTime": "domenica 13 agosto 2023 15:36:42"
-            },
-            "Manifests": 1888
-        },
-        {
-            "Name": "main",
-            "Source": "https://github.com/ScoopInstaller/Main.git",
-            "Updated": {
-                "value": "\/Date(1691929845000)\/",
-                "DisplayHint": 2,
-                "DateTime": "domenica 13 agosto 2023 14:30:45"
-            },
-            "Manifests": 1217
-        },
-        {
-            "Name": "nerd-fonts",
-            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": {
-                "value": "\/Date(1691342024000)\/",
-                "DisplayHint": 2,
-                "DateTime": "domenica 6 agosto 2023 19:13:44"
-            },
-            "Manifests": 280
-        }
-    ],
-    "apps": [
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "7zip",
-            "Version": "23.01",
-            "Updated": "\/Date(1690819753397)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "bat",
-            "Version": "0.23.0",
-            "Updated": "\/Date(1690981692704)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "bottom",
-            "Version": "0.9.4",
-            "Updated": "\/Date(1691687812813)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "delta",
-            "Version": "0.16.5",
-            "Updated": "\/Date(1691588460179)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "dust",
-            "Version": "0.8.6",
-            "Updated": "\/Date(1691687927044)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "fd",
-            "Version": "8.7.0",
-            "Updated": "\/Date(1691855020561)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "fzf",
-            "Version": "0.42.0",
-            "Updated": "\/Date(1691687328601)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "git",
-            "Version": "2.41.0.3",
-            "Updated": "\/Date(1690819794979)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "gitui",
-            "Version": "0.23.0",
-            "Updated": "\/Date(1691585916528)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "glow",
-            "Version": "1.5.1",
-            "Updated": "\/Date(1691778264747)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "gsudo",
-            "Version": "2.3.0",
-            "Updated": "\/Date(1691743059374)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "jq",
-            "Version": "1.6",
-            "Updated": "\/Date(1691587267060)\/"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "jqp",
-            "Version": "0.4.0",
-            "Updated": "\/Date(1691587440381)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "lsd",
-            "Version": "0.23.1",
-            "Updated": "\/Date(1691686531813)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "macchina",
-            "Version": "6.1.8",
-            "Updated": "\/Date(1691855872847)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "neovim",
-            "Version": "0.9.1",
-            "Updated": "\/Date(1690820146646)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "procs",
-            "Version": "0.14.0",
-            "Updated": "\/Date(1691687607479)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "ripgrep",
-            "Version": "13.0.0",
-            "Updated": "\/Date(1690981760235)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "sd",
-            "Version": "0.7.5",
-            "Updated": "\/Date(1691854974280)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "starship",
-            "Version": "1.16.0",
-            "Updated": "\/Date(1690821360371)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "tealdeer",
-            "Version": "1.6.1",
-            "Updated": "\/Date(1691937518334)\/"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "zoxide",
-            "Version": "0.9.2",
-            "Updated": "\/Date(1691686687861)\/"
-        },
-	{
-	    "Info": "",
-	    "Source": "extras",
-	    "Name": "powertoys",
-	    "Version": "0.74.0",
-            "Updated": "\/Date(1691686687861)\/"
-	}
-    ]
+  "buckets": [
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras",
+      "Updated": {
+        "value": "/Date(1691933802000)/",
+        "DisplayHint": 2,
+        "DateTime": "domenica 13 agosto 2023 15:36:42"
+      },
+      "Manifests": 1888
+    },
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main.git",
+      "Updated": {
+        "value": "/Date(1691929845000)/",
+        "DisplayHint": 2,
+        "DateTime": "domenica 13 agosto 2023 14:30:45"
+      },
+      "Manifests": 1217
+    },
+    {
+      "Name": "nerd-fonts",
+      "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+      "Updated": {
+        "value": "/Date(1691342024000)/",
+        "DisplayHint": 2,
+        "DateTime": "domenica 6 agosto 2023 19:13:44"
+      },
+      "Manifests": 280
+    }
+  ],
+  "apps": [
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "7zip",
+      "Version": "23.01",
+      "Updated": "/Date(1690819753397)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "bat",
+      "Version": "0.23.0",
+      "Updated": "/Date(1690981692704)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "bottom",
+      "Version": "0.9.4",
+      "Updated": "/Date(1691687812813)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "delta",
+      "Version": "0.16.5",
+      "Updated": "/Date(1691588460179)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "dust",
+      "Version": "0.8.6",
+      "Updated": "/Date(1691687927044)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "fd",
+      "Version": "8.7.0",
+      "Updated": "/Date(1691855020561)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "fzf",
+      "Version": "0.42.0",
+      "Updated": "/Date(1691687328601)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "git",
+      "Version": "2.41.0.3",
+      "Updated": "/Date(1690819794979)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "gitui",
+      "Version": "0.23.0",
+      "Updated": "/Date(1691585916528)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "glow",
+      "Version": "1.5.1",
+      "Updated": "/Date(1691778264747)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "gsudo",
+      "Version": "2.3.0",
+      "Updated": "/Date(1691743059374)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "jq",
+      "Version": "1.6",
+      "Updated": "/Date(1691587267060)/"
+    },
+    {
+      "Info": "",
+      "Source": "extras",
+      "Name": "jqp",
+      "Version": "0.4.0",
+      "Updated": "/Date(1691587440381)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "lsd",
+      "Version": "0.23.1",
+      "Updated": "/Date(1691686531813)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "macchina",
+      "Version": "6.1.8",
+      "Updated": "/Date(1691855872847)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "neovim",
+      "Version": "0.9.1",
+      "Updated": "/Date(1690820146646)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "procs",
+      "Version": "0.14.0",
+      "Updated": "/Date(1691687607479)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "ripgrep",
+      "Version": "13.0.0",
+      "Updated": "/Date(1690981760235)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "sd",
+      "Version": "0.7.5",
+      "Updated": "/Date(1691854974280)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "starship",
+      "Version": "1.16.0",
+      "Updated": "/Date(1690821360371)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "tealdeer",
+      "Version": "1.6.1",
+      "Updated": "/Date(1691937518334)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "zoxide",
+      "Version": "0.9.2",
+      "Updated": "/Date(1691686687861)/"
+    },
+    {
+      "Info": "",
+      "Source": "extras",
+      "Name": "powertoys",
+      "Version": "0.74.0",
+      "Updated": "/Date(1691686687861)/"
+    }
+  ]
 }
