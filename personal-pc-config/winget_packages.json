@@ -16,9 +16,6 @@
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
 				},
 				{
-					"PackageIdentifier" : "7zip.7zip"
-				},
-				{
 					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
