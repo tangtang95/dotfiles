@@ -63,6 +63,13 @@
     {
       "Info": "",
       "Source": "main",
+      "Name": "cmder",
+      "Version": "1.3.24",
+      "Updated": "/Date(1696665434231)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
       "Name": "dark",
       "Version": "3.11.2",
       "Updated": "/Date(1696263127941)/"
