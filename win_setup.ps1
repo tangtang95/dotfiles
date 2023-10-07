@@ -9,7 +9,7 @@ param(
     [switch]$Python,
 
     [Parameter()]
-    [switch]$Devops,
+    [switch]$Cluster,
 
     [Parameter()]
     [switch]$Rust,
@@ -68,7 +68,7 @@ if (-not $DryRun) {
         scoop install rustup
     }
 
-    if ($Devops -or $All) {
+    if ($Cluster -or $All) {
         $devtools = "kubectl", "aws", "k9s", "lazydocker"
         foreach ($tool in $devtools) {
             scoop install $tool
@@ -82,6 +82,7 @@ Write-Output "Setup Starship env variables"
 if (-not $DryRun) {
     Write-Output "Set STARSHIP_CONFIG to: $PWD\starship.toml" 
     [System.Environment]::SetEnvironmentVariable('STARSHIP_CONFIG', "$PWD\starship.toml", 'User')
+    RefreshEnvPath
 } else {
     Write-Output "DRY_RUN: Set STARSHIP_CONFIG to: $PWD\starship.toml" 
 }
