@@ -40,7 +40,7 @@ catch {
 }
 
 if (-not $DryRun) {
-    # scoop import .\scoop_config.json
+    scoop import .\scoop_config.json
     scoop update --all
     RefreshEnvPath
 
