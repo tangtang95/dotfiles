@@ -49,7 +49,6 @@ if (-not $DryRun) {
     }
 
     if ($Java -or $All) {
-        scoop install jabba
         scoop install maven
     }
 
