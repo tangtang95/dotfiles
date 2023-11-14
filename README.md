@@ -62,7 +62,7 @@ load(io.popen('starship init cmd'):read("*a"))()
 
 This is a list of tools that can be installed through [scoop](https://scoop.sh):
 
- - [jabba](https://github.com/Jabba-Team/jabba), java version manager
+ - [jabba](https://github.com/Jabba-Team/jabba), java version manager (does not work well when installed via scoop, install it via chocolatey or something else)
  - [maven](https://maven.apache.org/), java project manager tool
  - [nvm](https://github.com/coreybutler/nvm-windows), node and npm version manager
  - [miniconda3](https://docs.conda.io/en/latest/miniconda.html), python environment manager
