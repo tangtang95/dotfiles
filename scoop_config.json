@@ -98,6 +98,13 @@
     {
       "Info": "",
       "Source": "main",
+      "Name": "tree-sitter",
+      "Version": "0.20.8",
+      "Updated": "/Date(1700685718083)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
       "Name": "eza",
       "Version": "0.14.0",
       "Updated": "/Date(1696664509825)/"
