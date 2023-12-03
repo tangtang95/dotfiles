@@ -1,0 +1,19 @@
+{
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-f>": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.smartRelativeLine": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    }
+  ],
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  }
+}
