@@ -79,11 +79,11 @@ if (-not $DryRun) {
 
 Write-Output "Setup Starship env variables"
 if (-not $DryRun) {
-    Write-Output "Set STARSHIP_CONFIG to: $PWD\starship.toml" 
-    [System.Environment]::SetEnvironmentVariable('STARSHIP_CONFIG', "$PWD\starship.toml", 'User')
+    [System.Environment]::SetEnvironmentVariable('STARSHIP_CONFIG', "$PWD\starship\starship.toml", 'User')
     RefreshEnvPath
+    Write-Output "Set STARSHIP_CONFIG to: $STARSHIP_CONFIG" 
 } else {
-    Write-Output "DRY_RUN: Set STARSHIP_CONFIG to: $PWD\starship.toml" 
+    Write-Output "DRY_RUN: Set STARSHIP_CONFIG to: $PWD\starship\starship.toml" 
 }
 
 exit 0
