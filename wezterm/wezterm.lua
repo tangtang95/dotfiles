@@ -21,7 +21,7 @@ config.inactive_pane_hsb = {
 config.keys = {
   {
     key = 'c',
-    mods = 'CTRL',
+    mods = 'CTRL|SHIFT',
     action = wezterm.action_callback(function(window, pane)
         if pane:is_alt_screen_active() then
             window:perform_action(wezterm.action.SendKey{ key='c', mods='CTRL' }, pane)
@@ -30,9 +30,13 @@ config.keys = {
         end
     end),
   },
-  { key = 'v', mods = 'CTRL', action = wezterm.action{ PasteFrom = 'Clipboard'} },
-  { key = 'UpArrow', mods = 'SHIFT', action = act.ScrollByLine(-1) },
-  { key = 'DownArrow', mods = 'SHIFT', action = act.ScrollByLine(1) },
+  { key = 'v', mods = 'CTRL|SHIFT', action = wezterm.action{ PasteFrom = 'Clipboard'} },
+  { key = 'j', mods = 'CTRL|SHIFT', action = act.ScrollByLine(1) },
+  { key = 'k', mods = 'CTRL|SHIFT', action = act.ScrollByLine(-1) },
+  { key = 'd', mods = 'CTRL|SHIFT', action = act.ScrollByPage(0.5) },
+  { key = 'u', mods = 'CTRL|SHIFT', action = act.ScrollByPage(-0.5) },
+  { key = 'UpArrow', mods = 'CTRL|SHIFT', action = act.ScrollByLine(-1) },
+  { key = 'DownArrow', mods = 'CTRL|SHIFT', action = act.ScrollByLine(1) },
   {
     key = 'r',
     mods = 'SHIFT|CTRL',
