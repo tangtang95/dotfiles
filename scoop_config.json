@@ -91,6 +91,20 @@
     {
       "Info": "",
       "Source": "main",
+      "Name": "wget",
+      "Version": "1.21.4",
+      "Updated": "/Date(1692025832454)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "pwsh",
+      "Version": "7.4.1",
+      "Updated": "/Date(1692025832454)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
       "Name": "dust",
       "Version": "0.8.6",
       "Updated": "/Date(1692025833124)/"
