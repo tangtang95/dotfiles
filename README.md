@@ -25,7 +25,7 @@ Install *cmder-mini* via *Scoop*: `scoop install cmder`
 *Starship* terminal look with *cmder*. Require to install a nerd font and `starship` (e.g. `choco install starship`). Then add *starship* to `cmder clink` inside `%CMDER_ROOT%/config/cmder_prompt_config.lua`:
 
 ```lua
-os.setenv('STARSHIP_CONFIG', 'C:\\path\\to\\dotfiles\\starship.toml')
+os.setenv('STARSHIP_CONFIG', 'C:\\path\\to\\dotfiles\\starship\\starship.toml')
 
 load(io.popen('starship init cmd'):read("*a"))()
 ```
@@ -75,4 +75,4 @@ This is a list of tools that can be installed through [scoop](https://scoop.sh):
  - [k9s](https://github.com/derailed/k9s), kubernetes tui
  - [lazydocker](https://github.com/jesseduffield/lazydocker), docker tui
  - [aws](https://aws.amazon.com/cli/), aws cli tool
- - [usql](https://github.com/xo/usql), universal sql client with autocompletion and syntax highlighting
+ - [usql](https://github.com/xo/usql), universal sql client with autocompletion and syntax highlighting (in January of 2024, it does not work well in Windows)
