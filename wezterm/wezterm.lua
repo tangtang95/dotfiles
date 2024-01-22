@@ -52,6 +52,22 @@ config.keys = {
       name = 'activate_window',
     },
   },
+  {
+    key = "l",
+    mods = "SHIFT|CTRL",
+    action = wezterm.action { QuickSelectArgs={
+      patterns = {
+        "https?://(www\\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b[-a-zA-Z0-9@:%_+.~#?&\\/=]*"
+      },
+      action = wezterm.action_callback(
+        function(window, pane)
+          local url = window:get_selection_text_for_pane(pane)
+          wezterm.log_info("opening: " .. url)
+          wezterm.open_with(url)
+        end
+      )
+    }}
+  },
 }
 
 config.key_tables = {
