@@ -8,7 +8,6 @@ if wezterm.config_builder then
 end
 
 config.default_prog = { 'cmd.exe', '/k', '%CMDER_ROOT%\\vendor\\init.bat' }
--- config.default_prog = { 'C:\\Users\\Tangtang\\scoop\\apps\\git\\current\\usr\\bin\\bash.exe', '--login' }
 config.initial_cols = 100
 config.initial_rows = 24
 config.tab_bar_at_bottom = true
