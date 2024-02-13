@@ -10,8 +10,14 @@ autosuggest.hint                  = False
 clink.default_bindings            = windows
 clink.logo                        = none
 cmd.ctrld_exits                   = False
+history.max_lines                 = 25000
+history.time_stamp                = show
+match.expand_envvars              = True
+match.substring                   = True
+
+# Catppuccin Mocha colors
 color.arginfo                     = sgr 38;5;172
-color.argmatcher                  = sgr 1;38;5;40
+color.argmatcher                  = sgr 1;38;2;137;180;250 # bold blue (=function)
 color.cmd                         = bold
 color.cmdredir                    = sgr 38;5;172
 color.cmdsep                      = sgr 38;5;135
@@ -28,9 +34,4 @@ color.input                       = sgr 38;5;214
 color.readonly                    = sgr 38;5;28
 color.selected_completion         = sgr 7
 color.selection                   = sgr 38;5;16;48;5;179
-color.unrecognized                = sgr 38;5;203
-history.max_lines                 = 25000
-history.time_stamp                = show
-match.expand_envvars              = True
-match.substring                   = True
-
+color.unrecognized                = sgr 38;2;243;139;168 # red (=error)
