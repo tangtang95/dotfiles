@@ -6,6 +6,7 @@
 # enhanced Clink experience.
 
 autosuggest.enable                = True
+autosuggest.hint                  = False
 clink.default_bindings            = windows
 clink.logo                        = none
 cmd.ctrld_exits                   = False
