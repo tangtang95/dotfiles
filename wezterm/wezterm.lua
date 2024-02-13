@@ -7,7 +7,7 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
-config.default_prog = { 'cmd.exe' }
+config.default_prog = { 'cmd.exe', '/k', '%USERPROFILE%/dotfiles/clink/alias.cmd' }
 config.initial_cols = 100
 config.initial_rows = 24
 config.tab_bar_at_bottom = true
