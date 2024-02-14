@@ -7,7 +7,6 @@
 
 autosuggest.enable                = True
 autosuggest.hint                  = False
-clink.default_bindings            = windows
 clink.logo                        = none
 cmd.ctrld_exits                   = False
 history.max_lines                 = 25000
@@ -15,23 +14,47 @@ history.time_stamp                = show
 match.expand_envvars              = True
 match.substring                   = True
 
-# Catppuccin Mocha colors
-color.arginfo                     = sgr 38;5;172
-color.argmatcher                  = sgr 1;38;2;137;180;250 # bold blue (=function)
+# Catppuccin Mocha colors: https://github.com/catppuccin/catppuccin
+#
+# parameter = color: peach
+color.arginfo                     = sgr 38;2;250;179;135
+
+# color: lavander
+color.argmatcher                  = sgr 1;38;2;180;190;254
 color.cmd                         = bold
-color.cmdredir                    = sgr 38;5;172
-color.cmdsep                      = sgr 38;5;135
-color.comment_row                 = sgr 38;5;87;48;5;18
-color.description                 = sgr 38;5;39
-color.doskey                      = sgr 1;38;5;75
-color.executable                  = sgr 1;38;5;33
+
+# operator = color: teal
+color.cmdredir                    = sgr 38;2;148;226;213
+color.cmdsep                      = sgr 38;2;148;226;213
+
+# foreground: rosewater, background: crust
+color.comment_row                 = sgr 38;2;245;224;220;48;2;17;17;27
+
+# color: blue
+color.description                 = sgr 1;38;2;137;180;250
+color.doskey                      = sgr 1;38;2;137;180;250
+
+# file = color: mauve
+color.executable                  = sgr 1;38;2;203;166;247
 color.filtered                    = bold
-color.flag                        = sgr 38;5;117
-color.hidden                      = sgr 38;5;160
+
+# color: sky
+color.flag                        = sgr 38;2;137;220;235
+
+#color: maroon
+color.hidden                      = sgr 38;2;235;160;172
+
+# unknown
 color.histexpand                  = sgr 97;48;5;55
-color.horizscroll                 = sgr 38;5;16;48;5;30
-color.input                       = sgr 38;5;214
-color.readonly                    = sgr 38;5;28
+
+# color: green
+color.readonly                    = sgr 38;2;166;227;161
 color.selected_completion         = sgr 7
-color.selection                   = sgr 38;5;16;48;5;179
-color.unrecognized                = sgr 38;2;243;139;168 # red (=error)
+
+# selection = foreground: white, background: surface2
+color.selection                   = sgr 38;2;205;214;244;48;2;88;91;112
+
+# color: peach
+color.input                       = sgr 38;2;250;179;135
+# error = color: red
+color.unrecognized                = sgr 38;2;243;139;168
