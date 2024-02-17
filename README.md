@@ -14,50 +14,29 @@ My global git config:
 [push]
     default = current
     autoSetupRemote = true  
+[pull]
+    rebase = true
 ```
 
-## Cmder
+## Cmd + Clink
 
-Install *cmder-mini* via *Scoop*: `scoop install cmder`
+Install clink and clink-completions through *scoop*. Then set the env variable `CLINK_PROFILE` to the directory `clink` inside this repo in order to load all clink configs.
+Enable clink for `cmd.exe`:
+```
+clink autorun istall
+```
 
 ## Starship
 
-*Starship* terminal look with *cmder*. Require to install a nerd font and `starship` (e.g. `choco install starship`). Then add *starship* to `cmder clink` inside `%CMDER_ROOT%/config/cmder_prompt_config.lua`:
+Require to install a nerd font and `starship`. Make sure to have also clink installed (previous section)
+To load the starship config, make sure to put the `starship.toml` in the `~/.config` folder by doing a symbolic link
 
-```lua
-os.setenv('STARSHIP_CONFIG', 'C:\\path\\to\\dotfiles\\starship\\starship.toml')
-
-load(io.popen('starship init cmd'):read("*a"))()
-```
-
-## Terminal
+## Terminal (WezTerm)
  
  - Install a [nerdfont](https://www.nerdfonts.com/)
- - Add a new profile for Cmder:
-```json
-{
-    "altGrAliasing": true,
-    "antialiasingMode": "grayscale",
-    "closeOnExit": "graceful",
-    "colorScheme": "One Half Dark",
-    "commandline": "cmd.exe /k \"%CMDER_ROOT%\\vendor\\init.bat\"",
-    "cursorShape": "bar",
-    "font": 
-    {
-        "size": 12
-    },
-    "guid": "{c8f3cbf0-230a-431c-a008-eee30338b961}",
-    "hidden": false,
-    "historySize": 9001,
-    "icon": "%CMDER_ROOT%\\icons\\cmder.ico",
-    "name": "Cmder",
-    "opacity": 100,
-    "padding": "8, 8, 8, 8",
-    "snapOnInput": true,
-    "startingDirectory": "%USERPROFILE%/Documents",
-    "useAcrylic": false
-}
-```
+ - Install WezTerm via *scoop*
+ - To load the config file of WezTerm put the `wezterm` folder into .config folder using a symbolic link
+
 ## Other useful development CLI tools for specific languages
 
 This is a list of tools that can be installed through [scoop](https://scoop.sh):
@@ -76,3 +55,4 @@ This is a list of tools that can be installed through [scoop](https://scoop.sh):
  - [lazydocker](https://github.com/jesseduffield/lazydocker), docker tui
  - [aws](https://aws.amazon.com/cli/), aws cli tool
  - [usql](https://github.com/xo/usql), universal sql client with autocompletion and syntax highlighting (in January of 2024, it does not work well in Windows)
+ - *psql*, coming with postgresql
