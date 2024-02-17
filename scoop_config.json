@@ -68,11 +68,18 @@
       "Updated": "/Date(1696665964467)/"
     },
     {
+      "Name": "clink",
+      "Version": "1.6.3",
       "Info": "",
-      "Source": "main",
-      "Name": "cmder",
-      "Version": "1.3.24",
-      "Updated": "/Date(1696665434231)/"
+      "Updated": "2024-02-14T20:05:57.008095+01:00",
+      "Source": "main"
+    },
+    {
+      "Name": "clink-completions",
+      "Version": "0.5.0",
+      "Info": "",
+      "Updated": "2024-02-14T20:15:02.0943135+01:00",
+      "Source": "main"
     },
     {
       "Info": "",
@@ -180,6 +187,13 @@
       "Updated": "/Date(1692025852280)/"
     },
     {
+      "Name": "lazygit",
+      "Version": "0.40.2",
+      "Info": "",
+      "Updated": "2024-02-01T21:09:34.319855+01:00",
+      "Source": "extras"
+    },
+    {
       "Info": "",
       "Source": "main",
       "Name": "macchina",
@@ -234,6 +248,27 @@
       "Name": "tealdeer",
       "Version": "1.6.1",
       "Updated": "/Date(1692025867337)/"
+    },
+    {
+      "Name": "uutils-coreutils",
+      "Version": "0.0.23",
+      "Info": "",
+      "Updated": "2024-02-11T18:01:54.1112128+01:00",
+      "Source": "main"
+    },
+    {
+      "Name": "wezterm",
+      "Version": "20240128-202157-1e552d76",
+      "Info": "",
+      "Updated": "2024-01-31T21:06:22.8739129+01:00",
+      "Source": "extras"
+    },
+    {
+      "Name": "wget",
+      "Version": "1.21.4",
+      "Info": "",
+      "Updated": "2024-02-01T19:24:03.0038885+01:00",
+      "Source": "main"
     },
     {
       "Info": "",
