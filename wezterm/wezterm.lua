@@ -12,6 +12,7 @@ config.initial_cols = 100
 config.initial_rows = 24
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
+config.tab_max_width = 24
 config.color_scheme = 'Catppuccin Mocha'
 config.inactive_pane_hsb = {
  saturation = 0.7,
@@ -107,19 +108,25 @@ config.key_tables = {
   },
 }
 
-local function shorten_cmd_title(title)
-  if title:find("cmd.exe") then
-    return "cmd.exe"
-  end
-  return title
+-- Equivalent to POSIX basename(3)
+-- Given "/foo/bar" returns "bar"
+-- Given "c:\\foo\\bar" returns "bar"
+local function basename(s)
+  s = string.gsub(s, '(.*[/\\])(.*)', '%2')
+  s = string.gsub(s, '%s+', '')
+  return s
 end
 
-wezterm.on('format-tab-title', function(tab_info)
-  local title = tab_info.tab_title
+wezterm.on('format-tab-title', function(tab)
+  local title = tab.tab_title
+  local pane = tab.active_pane
   if not (title and #title > 0) then
-    title = tab_info.active_pane.title
+    title = basename(pane.title)
   end
-  return ' ' .. shorten_cmd_title(title) .. ' '
+  title = title .. ' (' .. tab.tab_index + 1 .. ')'
+  return {
+    { Text = ' ' .. title .. ' ' },
+  }
 end)
 
 wezterm.on('update-status', function(window, _)
