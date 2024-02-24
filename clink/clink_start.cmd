@@ -8,3 +8,4 @@ doskey pbpaste=powershell -command Get-ClipBoard
 doskey pbcopy=clip
 doskey vi=nvim $*
 doskey vim=nvim $*
+doskey k=kubectl $*
