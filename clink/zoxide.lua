@@ -110,8 +110,8 @@ local function __zoxide_z(keywords)
   elseif #keywords >= 2 then
     local last_arg = keywords[#keywords]
     last_arg = last_arg:gsub("\"", "")
-    if last_arg:match("^z#.*$") then
-      return __zoxide_cd(last_arg:sub(3, #last_arg))
+    if last_arg:match("^z#.*#$") then
+      return __zoxide_cd(last_arg:sub(3, #last_arg - 1))
     end
   end
 
@@ -172,21 +172,32 @@ end
 -- Zoxide query completion like in other shells
 -- e.g. z clink z#C:/path/to/clink
 local function __zoxide_query_completion(_, _, line_state)
-	local cmd = line_state:getline()
-	local args = string.explode(cmd, " ")
+	local args = string.explode(line_state:getline(), " ")
 
-	if #args <= 1 or args[#args]:match("^z#.*$") then
+	if #args <= 1 or line_state:getline():match("z#.+#") then
 		return true
 	end
 
-	local file = io.popen("zoxide query -l " .. cmd:sub(#args[1] + 1, #cmd))
+  table.remove(args, 1)
+  local query = ""
+  for _, arg in ipairs(args) do
+    if arg:match("z#.+") == nil then
+      query = query .. arg .. " "
+    end
+  end
+  query = query:sub(1, #query - 1)
+  if query:match("^[-]+.*$") then
+    return true
+  end
+
+	local file = io.popen("zoxide query -l " .. query)
 	if file == nil then
 		return true
 	end
 
 	local result = {}
 	for line in file:lines() do
-		table.insert(result, { match = "z#" .. line, description = line, type = "file" })
+		table.insert(result, { match = "z#" .. line .. "#", description = line, type = "file" })
 	end
 	file:close()
 
