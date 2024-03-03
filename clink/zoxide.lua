@@ -169,31 +169,8 @@ else
   clink.onendedit(onfilterinput)
 end
 
-function table_to_string(tbl)
-    local result = "{"
-    for k, v in pairs(tbl) do
-        -- Check the key type (ignore any numerical keys - assume its an array)
-        if type(k) == "string" then
-            result = result.."[\""..k.."\"]".."="
-        end
-
-        -- Check the value type
-        if type(v) == "table" then
-            result = result..table_to_string(v)
-        elseif type(v) == "boolean" then
-            result = result..tostring(v)
-        else
-            result = result.."\""..v.."\""
-        end
-        result = result..","
-    end
-    -- Remove leading commas from the result
-    if result ~= "" then
-        result = result:sub(1, result:len()-1)
-    end
-    return result.."}"
-end
-
+-- Zoxide query completion like in other shells
+-- e.g. z clink z#C:/path/to/clink
 local function __zoxide_query_completion(_, _, line_state)
 	local cmd = line_state:getline()
 	local args = string.explode(cmd, " ")
