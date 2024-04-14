@@ -11,6 +11,7 @@ config.default_prog = { 'nu.exe' }
 config.use_dead_keys = false
 config.initial_cols = 100
 config.initial_rows = 24
+config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_max_width = 24
