@@ -7,7 +7,7 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
-config.default_prog = { 'cmd.exe', '/k' }
+config.default_prog = { 'nu.exe' }
 config.use_dead_keys = false
 config.initial_cols = 100
 config.initial_rows = 24
