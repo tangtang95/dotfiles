@@ -15,6 +15,7 @@ config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_max_width = 24
 config.color_scheme = 'Catppuccin Mocha'
+config.check_for_updates = false
 config.inactive_pane_hsb = {
  saturation = 0.7,
  brightness = 0.5
