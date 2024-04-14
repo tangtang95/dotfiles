@@ -68,6 +68,13 @@
       "Updated": "/Date(1696665964467)/"
     },
     {
+      "Name": "carapace-bin",
+      "Source": "extras",
+      "Info": "",
+      "Updated": "2024-04-14T12:29:21.7961702+02:00",
+      "Version": "1.0.0"
+    },
+    {
       "Name": "clink",
       "Version": "1.6.3",
       "Info": "",
@@ -206,6 +213,13 @@
       "Name": "neovim",
       "Version": "0.9.1",
       "Updated": "/Date(1692025862613)/"
+    },
+    {
+      "Updated": "2024-04-14T09:12:16.7636529+02:00",
+      "Name": "nu",
+      "Info": "",
+      "Source": "main",
+      "Version": "0.92.2"
     },
     {
       "Info": "",
