@@ -4,13 +4,13 @@ format = """
 $username\
 $hostname\
 $directory\
-$character"""
-
-right_format = """
 $git_branch\
 $git_state\
 $git_status\
 $git_metrics\
+$character"""
+
+right_format = """
 $nodejs\
 $java\
 $python\
