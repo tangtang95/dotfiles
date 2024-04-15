@@ -896,6 +896,8 @@ alias pbpaste = powershell -command Get-ClipBoard
 alias pbcopy = clip
 alias e. = explorer .
 alias k = kubectl
+alias lsn = ls
+alias ls = eza
 
 # Starship setup
 use ~/.cache/starship/init.nu
