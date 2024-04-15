@@ -2,33 +2,6 @@
 
 My Windows configuration files
 
-## Git
-
-My global git config:
-
-```
-[core]
-    editor = nvim
-[alias]
-    prb = pull --rebase
-    pfl = push --force-with-lease
-    log1l = log --oneline
-[push]
-    default = current
-    autoSetupRemote = true  
-[pull]
-    rebase = true
-```
-
-## Cmd + Clink
-
-Install clink and clink-completions through *scoop*. Then set the env variable `CLINK_PROFILE` to the directory `clink` inside this repo in order to load all clink configs.
-Enable clink for `cmd.exe`:
-
-```bash
-clink autorun istall
-```
-
 ## Starship
 
 Require to install a nerd font and `starship`. Make sure to have also clink installed (previous section)
@@ -60,11 +33,3 @@ This is a list of tools that can be installed through [scoop](https://scoop.sh):
 - [usql](https://github.com/xo/usql), universal sql client with autocompletion and syntax highlighting (in January of 2024, it does not work well in Windows)
 - *psql*, coming with postgresql
 
-## K9S (optional)
-
-Requires `ln` and `yq` tool to make a symbolic link and merge two yaml files
-
-```bash
-ln -s ~\dotfiles\k9s\skins %LOCALAPPDATA%\k9s\skins
-yq -i ". *= load(\"%USERPROFILE%\dotfiles\k9s\config.yaml\")" %LOCALAPPDATA%\k9s\config.yaml
-```
