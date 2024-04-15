@@ -1,0 +1,302 @@
+{
+  "buckets": [
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras",
+      "Updated": {
+        "value": "/Date(1696652735000)/",
+        "DisplayHint": 2,
+        "DateTime": "sabato 7 ottobre 2023 06:25:35"
+      },
+      "Manifests": 1889
+    },
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main.git",
+      "Updated": {
+        "value": "/Date(1696652724000)/",
+        "DisplayHint": 2,
+        "DateTime": "sabato 7 ottobre 2023 06:25:24"
+      },
+      "Manifests": 1256
+    },
+    {
+      "Name": "nerd-fonts",
+      "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+      "Updated": {
+        "value": "/Date(1696609390000)/",
+        "DisplayHint": 2,
+        "DateTime": "venerd� 6 ottobre 2023 18:23:10"
+      },
+      "Manifests": 296
+    }
+  ],
+  "apps": [
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "7zip",
+      "Version": "23.01",
+      "Updated": "/Date(1692025828633)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "bat",
+      "Version": "0.23.0",
+      "Updated": "/Date(1692025830560)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "bottom",
+      "Version": "0.9.4",
+      "Updated": "/Date(1692025831598)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "btop-lhm",
+      "Version": "1.0.4",
+      "Updated": "/Date(1692385761069)/"
+    },
+    {
+      "Info": "",
+      "Source": "nerd-fonts",
+      "Name": "CascadiaCode-NF",
+      "Version": "3.0.2",
+      "Updated": "/Date(1696665964467)/"
+    },
+    {
+      "Name": "carapace-bin",
+      "Source": "extras",
+      "Info": "",
+      "Updated": "2024-04-14T12:29:21.7961702+02:00",
+      "Version": "1.0.0"
+    },
+    {
+      "Name": "clink",
+      "Version": "1.6.3",
+      "Info": "",
+      "Updated": "2024-02-14T20:05:57.008095+01:00",
+      "Source": "main"
+    },
+    {
+      "Name": "clink-completions",
+      "Version": "0.5.0",
+      "Info": "",
+      "Updated": "2024-02-14T20:15:02.0943135+01:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "dark",
+      "Version": "3.11.2",
+      "Updated": "/Date(1696263127941)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "delta",
+      "Version": "0.16.5",
+      "Updated": "/Date(1692025832454)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "wget",
+      "Version": "1.21.4",
+      "Updated": "/Date(1692025832454)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "pwsh",
+      "Version": "7.4.1",
+      "Updated": "/Date(1692025832454)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "dust",
+      "Version": "0.8.6",
+      "Updated": "/Date(1692025833124)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "tree-sitter",
+      "Version": "0.20.8",
+      "Updated": "/Date(1700685718083)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "eza",
+      "Version": "0.14.0",
+      "Updated": "/Date(1696664509825)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "fd",
+      "Version": "8.7.0",
+      "Updated": "/Date(1692025833932)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "fzf",
+      "Version": "0.42.0",
+      "Updated": "/Date(1692025834781)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "git",
+      "Version": "2.41.0.3",
+      "Updated": "/Date(1692025847061)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "gitui",
+      "Version": "0.23.0",
+      "Updated": "/Date(1692025847925)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "glow",
+      "Version": "1.5.1",
+      "Updated": "/Date(1692025849010)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "gsudo",
+      "Version": "2.3.0",
+      "Updated": "/Date(1692025850357)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "jq",
+      "Version": "1.6",
+      "Updated": "/Date(1692025851274)/"
+    },
+    {
+      "Info": "",
+      "Source": "extras",
+      "Name": "jqp",
+      "Version": "0.4.0",
+      "Updated": "/Date(1692025852280)/"
+    },
+    {
+      "Name": "lazygit",
+      "Version": "0.40.2",
+      "Info": "",
+      "Updated": "2024-02-01T21:09:34.319855+01:00",
+      "Source": "extras"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "macchina",
+      "Version": "6.1.8",
+      "Updated": "/Date(1692025853743)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "neovim",
+      "Version": "0.9.1",
+      "Updated": "/Date(1692025862613)/"
+    },
+    {
+      "Updated": "2024-04-14T09:12:16.7636529+02:00",
+      "Name": "nu",
+      "Info": "",
+      "Source": "main",
+      "Version": "0.92.2"
+    },
+    {
+      "Info": "",
+      "Source": "extras",
+      "Name": "powertoys",
+      "Version": "0.74.0",
+      "Updated": "/Date(1696263177860)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "procs",
+      "Version": "0.14.0",
+      "Updated": "/Date(1692025863449)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "ripgrep",
+      "Version": "13.0.0",
+      "Updated": "/Date(1692025864190)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "sd",
+      "Version": "0.7.5",
+      "Updated": "/Date(1692025865456)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "starship",
+      "Version": "1.16.0",
+      "Updated": "/Date(1692025866295)/"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "tealdeer",
+      "Version": "1.6.1",
+      "Updated": "/Date(1692025867337)/"
+    },
+    {
+      "Name": "uutils-coreutils",
+      "Version": "0.0.23",
+      "Info": "",
+      "Updated": "2024-02-11T18:01:54.1112128+01:00",
+      "Source": "main"
+    },
+    {
+      "Name": "wezterm",
+      "Version": "20240128-202157-1e552d76",
+      "Info": "",
+      "Updated": "2024-01-31T21:06:22.8739129+01:00",
+      "Source": "extras"
+    },
+    {
+      "Name": "wget",
+      "Version": "1.21.4",
+      "Info": "",
+      "Updated": "2024-02-01T19:24:03.0038885+01:00",
+      "Source": "main"
+    },
+    {
+      "Name": "yq",
+      "Updated": "2024-02-18T16:23:39.4546612+01:00",
+      "Version": "4.41.1",
+      "Info": "",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Source": "main",
+      "Name": "zoxide",
+      "Version": "0.9.2",
+      "Updated": "/Date(1692025941930)/"
+    }
+  ]
+}

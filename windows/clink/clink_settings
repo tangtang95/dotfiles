@@ -1,0 +1,60 @@
+
+# When this file is named "default_settings" and is in the binaries
+# directory or profile directory, it provides enhanced default settings.
+
+# Override built-in default settings with ones that provide a more
+# enhanced Clink experience.
+
+autosuggest.enable                = True
+autosuggest.hint                  = False
+clink.logo                        = none
+cmd.ctrld_exits                   = False
+history.max_lines                 = 25000
+history.time_stamp                = show
+match.expand_envvars              = True
+match.substring                   = True
+
+# Catppuccin Mocha colors: https://github.com/catppuccin/catppuccin
+#
+# parameter = color: peach
+color.arginfo                     = sgr 38;2;250;179;135
+
+# color: lavander
+color.argmatcher                  = sgr 1;38;2;180;190;254
+color.cmd                         = bold
+
+# operator = color: teal
+color.cmdredir                    = sgr 38;2;148;226;213
+color.cmdsep                      = sgr 38;2;148;226;213
+
+# foreground: rosewater, background: crust
+color.comment_row                 = sgr 38;2;245;224;220;48;2;17;17;27
+
+# color: blue
+color.description                 = sgr 1;38;2;137;180;250
+color.doskey                      = sgr 1;38;2;137;180;250
+
+# file = color: mauve
+color.executable                  = sgr 1;38;2;203;166;247
+color.filtered                    = bold
+
+# color: sky
+color.flag                        = sgr 38;2;137;220;235
+
+#color: maroon
+color.hidden                      = sgr 38;2;235;160;172
+
+# unknown
+color.histexpand                  = sgr 97;48;5;55
+
+# color: green
+color.readonly                    = sgr 38;2;166;227;161
+color.selected_completion         = sgr 7
+
+# selection = foreground: white, background: surface2
+color.selection                   = sgr 38;2;205;214;244;48;2;88;91;112
+
+# color: peach
+color.input                       = sgr 38;2;250;179;135
+# error = color: red
+color.unrecognized                = sgr 38;2;243;139;168
