@@ -1,4 +1,0 @@
-k9s:
-  readOnly: true
-  ui:
-    skin: catppuccin-mocha
