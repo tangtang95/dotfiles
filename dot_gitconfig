@@ -1,0 +1,17 @@
+[core]
+	editor = nvim
+[user]
+	email = 5919707+tangtang95@users.noreply.github.com
+	name = Tangtang Zhou
+[alias]
+	pfl = push --force-with-lease
+	log1l = log --oneline
+[push]
+	default = current
+	autoSetupRemote = true
+[pull]
+  rebase = true
+[credential "helperselector"]
+	selected = manager
+[init]
+	defaultBranch = main
