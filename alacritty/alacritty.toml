@@ -1,4 +1,5 @@
-shell = {program = "wsl", args = ["--cd ~"]}
+# shell = {program = "wsl", args = ["--cd ~"]}
+shell = {program = "nu"}
 
 [window]
 dimensions = { columns = 120, lines = 30 }
