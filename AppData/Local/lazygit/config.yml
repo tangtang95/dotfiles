@@ -22,6 +22,7 @@ gui:
       - '#f9e2af'
 
   authorColors:
+    'Tangtang Zhou': '#cba6f7'
     '*': '#b4befe'
 keybinding:
   universal:
