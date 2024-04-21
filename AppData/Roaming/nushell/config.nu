@@ -893,3 +893,6 @@ use ~/.cache/starship/init.nu
 
 # Zoxide setup
 source ~/.zoxide.nu
+
+# Broot setup
+use '~/AppData/Roaming/dystroy/broot/config/launcher/nushell/br' *
