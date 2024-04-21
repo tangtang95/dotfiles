@@ -772,6 +772,6 @@ alias lsn = ls
 alias ls = eza
 
 # Modules
-use ~/AppData/Roaming/nushell/modules/starship.nu
-source ~/AppData/Roaming/nushell/modules/zoxide.nu
-use ~/AppData/Roaming/nushell/modules/broot.nu *
+use ~/AppData/Roaming/nushell/modules/.starship.nu
+source ~/AppData/Roaming/nushell/modules/.zoxide.nu
+use ~/AppData/Roaming/nushell/modules/.broot.nu *
