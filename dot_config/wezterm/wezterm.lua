@@ -20,6 +20,7 @@ config.inactive_pane_hsb = {
  saturation = 0.7,
  brightness = 0.5
 }
+config.max_fps = 255
 config.keys = {
   {
     key = 'c',
@@ -55,7 +56,7 @@ config.keys = {
     },
   },
   {
-    key = "l",
+    key = "o",
     mods = "SHIFT|CTRL",
     action = wezterm.action { QuickSelectArgs={
       patterns = {
