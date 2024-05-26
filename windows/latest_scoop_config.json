@@ -1,0 +1,479 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": "2024-05-25T14:30:33+02:00",
+            "Manifests": 1325
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2024-05-25T15:46:59+02:00",
+            "Manifests": 2025
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2024-05-24T09:17:18+02:00",
+            "Manifests": 336
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Updated": "2023-08-14T17:10:28.6335391+02:00",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "23.01"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-20T21:03:12.6888403+01:00",
+            "Source": "main",
+            "Name": "7zip19.00-helper",
+            "Version": "19.00"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-04T18:07:09.0456936+02:00",
+            "Source": "extras",
+            "Name": "alacritty",
+            "Version": "0.13.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:12.0474588+01:00",
+            "Source": "main",
+            "Name": "aws",
+            "Version": "2.15.15"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:13.9085253+01:00",
+            "Source": "main",
+            "Name": "bat",
+            "Version": "0.24.0"
+        },
+        {
+            "Info": "Install failed",
+            "Updated": "2024-02-17T18:00:37.5957892+01:00",
+            "Source": null,
+            "Name": "bind",
+            "Version": null
+        },
+        {
+            "Info": "",
+            "Updated": "2023-10-07T10:43:23.7920863+02:00",
+            "Source": "main",
+            "Name": "bottom",
+            "Version": "0.9.6"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-20T14:44:11.2996717+02:00",
+            "Source": "main",
+            "Name": "broot",
+            "Version": "1.36.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-08-18T21:09:21.0694044+02:00",
+            "Source": "main",
+            "Name": "btop-lhm",
+            "Version": "1.0.4"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-01T19:24:01.93953+01:00",
+            "Source": "main",
+            "Name": "cacert",
+            "Version": "2023-12-12"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T12:29:21.7961702+02:00",
+            "Source": "extras",
+            "Name": "carapace-bin",
+            "Version": "1.0.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:18.3706639+01:00",
+            "Source": "nerd-fonts",
+            "Name": "CascadiaCode-NF",
+            "Version": "3.1.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-15T19:23:28.5925533+02:00",
+            "Source": "main",
+            "Name": "chezmoi",
+            "Version": "2.47.4"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-05-25T17:50:54.7634317+02:00",
+            "Source": "main",
+            "Name": "cmake",
+            "Version": "3.29.3"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-17T19:25:51.7900802+01:00",
+            "Source": "main",
+            "Name": "curlie",
+            "Version": "1.7.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-10-02T18:12:07.9418896+02:00",
+            "Source": "main",
+            "Name": "dark",
+            "Version": "3.11.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-08-14T17:10:32.4541094+02:00",
+            "Source": "main",
+            "Name": "delta",
+            "Version": "0.16.5"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:19.3598098+01:00",
+            "Source": "main",
+            "Name": "dust",
+            "Version": "0.9.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:20.3286366+01:00",
+            "Source": "main",
+            "Name": "eza",
+            "Version": "0.17.3"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:21.3378089+01:00",
+            "Source": "main",
+            "Name": "fd",
+            "Version": "9.0.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:22.3393512+01:00",
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.46.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:03:35.5304811+01:00",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.43.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-10-07T10:43:41.4902953+02:00",
+            "Source": "main",
+            "Name": "gitui",
+            "Version": "0.24.3"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-08-14T17:10:49.0108258+02:00",
+            "Source": "main",
+            "Name": "glow",
+            "Version": "1.5.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:09.5113812+01:00",
+            "Source": "main",
+            "Name": "go",
+            "Version": "1.21.6"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:11.4903174+01:00",
+            "Source": "main",
+            "Name": "gsudo",
+            "Version": "2.4.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T18:20:26.9404972+02:00",
+            "Source": "main",
+            "Name": "gzip",
+            "Version": "1.3.12"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-12-17T09:35:13.2170232+01:00",
+            "Source": "main",
+            "Name": "helix",
+            "Version": "23.10"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-05-07T15:24:58.3036654+02:00",
+            "Source": "main",
+            "Name": "hexyl",
+            "Version": "0.14.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-13T16:23:19.506976+02:00",
+            "Source": "nerd-fonts",
+            "Name": "JetBrainsMono-NF-Mono",
+            "Version": "3.2.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:12.2816984+01:00",
+            "Source": "main",
+            "Name": "jq",
+            "Version": "1.7.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:13.5999623+01:00",
+            "Source": "extras",
+            "Name": "jqp",
+            "Version": "0.5.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-18T15:49:05.5979216+01:00",
+            "Source": "main",
+            "Name": "k9s",
+            "Version": "0.31.9"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-05-25T13:20:08.5115413+02:00",
+            "Source": "extras",
+            "Name": "komorebi",
+            "Version": "0.1.26"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-18T17:12:25.6669052+01:00",
+            "Source": "main",
+            "Name": "kubeshark",
+            "Version": "52.1.45"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T19:39:11.7775639+02:00",
+            "Source": "extras",
+            "Name": "lazygit",
+            "Version": "0.41.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:13.8729644+01:00",
+            "Source": "main",
+            "Name": "lf",
+            "Version": "r31"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-08-14T17:10:53.743965+02:00",
+            "Source": "main",
+            "Name": "macchina",
+            "Version": "6.1.8"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-09-22T21:40:30.4519524+02:00",
+            "Source": "main",
+            "Name": "make",
+            "Version": "4.4.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:23.800317+01:00",
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.9.5"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T09:12:16.7636529+02:00",
+            "Source": "main",
+            "Name": "nu",
+            "Version": "0.92.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-05-25T17:58:09.7216439+02:00",
+            "Source": "main",
+            "Name": "nuget",
+            "Version": "6.10.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:25.0680861+01:00",
+            "Source": "main",
+            "Name": "nvm",
+            "Version": "1.1.12"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-27T17:26:13.9634594+02:00",
+            "Source": "main",
+            "Name": "perl",
+            "Version": "5.38.2.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-20T21:04:10.5067949+01:00",
+            "Source": "main",
+            "Name": "postgresql",
+            "Version": "16.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:54.5306365+01:00",
+            "Source": "extras",
+            "Name": "powertoys",
+            "Version": "0.77.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:55.6238864+01:00",
+            "Source": "main",
+            "Name": "procs",
+            "Version": "0.14.4"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-25T08:04:25.2332036+01:00",
+            "Source": "main",
+            "Name": "pwsh",
+            "Version": "7.4.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-03-09T15:38:33.7486387+01:00",
+            "Source": "main",
+            "Name": "redis",
+            "Version": "7.0.15"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:56.6262552+01:00",
+            "Source": "main",
+            "Name": "ripgrep",
+            "Version": "14.1.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-03-09T19:39:26.8430585+01:00",
+            "Source": "main",
+            "Name": "rustup",
+            "Version": "1.26.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:04:57.6108893+01:00",
+            "Source": "main",
+            "Name": "sd",
+            "Version": "1.0.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T18:21:10.5897105+02:00",
+            "Source": "main",
+            "Name": "sed",
+            "Version": "4.9"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T11:45:32.3113743+02:00",
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.18.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2023-08-14T17:11:07.3373103+02:00",
+            "Source": "main",
+            "Name": "tealdeer",
+            "Version": "1.6.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-08T19:08:06.2141351+02:00",
+            "Source": "main",
+            "Name": "termscp",
+            "Version": "0.13.0"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-16T19:15:58.28509+02:00",
+            "Source": "main",
+            "Name": "tokei",
+            "Version": "12.1.2"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-28T13:05:05.6624646+01:00",
+            "Source": "main",
+            "Name": "tree-sitter",
+            "Version": "0.20.9"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T18:20:18.5253076+02:00",
+            "Source": "main",
+            "Name": "unzip",
+            "Version": "6.00"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-11T18:01:54.1112128+01:00",
+            "Source": "main",
+            "Name": "uutils-coreutils",
+            "Version": "0.0.23"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-01-31T21:06:22.8739129+01:00",
+            "Source": "extras",
+            "Name": "wezterm",
+            "Version": "20240128-202157-1e552d76"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-01T19:24:03.0038885+01:00",
+            "Source": "main",
+            "Name": "wget",
+            "Version": "1.21.4"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-26T13:23:42.3401137+02:00",
+            "Source": "extras",
+            "Name": "whkd",
+            "Version": "0.2.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-02-18T16:23:39.4546612+01:00",
+            "Source": "main",
+            "Name": "yq",
+            "Version": "4.41.1"
+        },
+        {
+            "Info": "",
+            "Updated": "2024-04-14T11:41:35.0694121+02:00",
+            "Source": "main",
+            "Name": "zoxide",
+            "Version": "0.9.4"
+        }
+    ]
+}
