@@ -19,7 +19,8 @@ set number
 " let mapleader = " " does not work. This is another way to do the same thing
 let mapleader = " "
 
-" Set handlers
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+" Set handers
 sethandler <C-V> i:ide
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
@@ -32,6 +33,7 @@ Plug 'vim-scripts/argtextobj.vim'
 Plug 'justinmk/vim-sneak'
 set commentary
 set which-key
+set quickscope
 
 " Which key config
 set notimeout
@@ -62,6 +64,7 @@ nnoremap <leader>sr :action ReplaceInPath<CR>
 vnoremap <leader>sr :action ReplaceInPath<CR>
 
 nnoremap <leader>e :NERDTreeFocus<CR>
+nnoremap <leader>E :action SelectIn<CR>
 
 nnoremap <leader>ca :action ShowIntentionActions<CR>
 nnoremap <leader>cr :action RenameElement<CR>
