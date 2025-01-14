@@ -1,5 +1,13 @@
-
 theme = "catppuccin_mocha"
+
+[editor]
+scrolloff = 10
+shell = ["nu", "-c"]
+auto-format = false
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
 
 [keys.normal]
 # Quick iteration on config changes
