@@ -11,12 +11,6 @@ $git_metrics\
 $character"""
 
 right_format = """
-$nodejs\
-$java\
-$python\
-$rust\
-$cmake\
-$terraform\
 $cmd_duration $jobs\
 """
 
@@ -36,7 +30,7 @@ style = "bold red"
 number_threshold = 1
 format = "[$symbol]($style)"
 
-# Git 
+# Git
 [git_branch]
 symbol = " "
 format = "[$symbol$branch]($style) "
@@ -62,53 +56,9 @@ disabled = false
 style = "bold white"
 format = "[$time]($style)"
 
-[aws]
-symbol = "  "
-
-[c]
-symbol = " "
-
-[conda]
-symbol = " "
-
 [directory]
 style = "blue"
 read_only = " "
 truncation_length = 5
 truncate_to_repo = false
-
-[docker_context]
-symbol = " "
-
-[hg_branch]
-symbol = " "
-
-[java]
-symbol = " "
-format = "[$symbol java ]($style)"
-
-[lua]
-symbol = " "
-
-[nodejs]
-symbol = " "
-format = "[$symbol($version )]($style)"
-
-[package]
-symbol = " "
-
-[python]
-symbol = " "
-format = '[$symbol($version )(\($virtualenv\) )]($style)'
-
-[rust]
-symbol = " "
-format = "[$symbol($version )]($style)"
-
-[cmake]
-format = "[$symbol($version )]($style)"
-
-[terraform]
-symbol = "💨"
-format = "[$symbol $workspace ]($style)"
 
