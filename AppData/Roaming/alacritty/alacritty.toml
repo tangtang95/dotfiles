@@ -1,11 +1,11 @@
-shell = {program = "wsl", args = ["--cd ~"]}
-# shell = {program = "nu"}
+[terminal]
+shell = {program = "wsl", args = ["--cd", "~"]}
 
 [window]
 dimensions = { columns = 120, lines = 30 }
 
 [font]
-normal = { family = "CaskaydiaCove Nerd Font"}
+normal = { family = "JetBrainsMono Nerd Font Mono"}
 size = 12
 
 # Catppuccin Mocha colors
