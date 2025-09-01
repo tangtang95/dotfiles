@@ -13,7 +13,7 @@ general:
   toggle_workspace_on_refocus: false
 
   cursor_jump:
-    enabled: true
+    enabled: false
     trigger: 'window_focus'
 
   hide_method: 'cloak'
@@ -102,6 +102,9 @@ window_rules:
         window_class: { not_regex: 'OpusApp' }
       - window_process: { equals: 'POWERPNT' }
         window_class: { not_regex: 'PPTFrameClass' }
+  - commands: ['move --workspace 8']
+    match:
+      - window_process: { equals: 'Discord' }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
