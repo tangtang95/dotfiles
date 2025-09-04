@@ -121,7 +121,8 @@ window_rules:
   - commands: ['move --workspace 9', 'focus --workspace 9']
     match:
       - window_process: { equals: 'OUTLOOK' }
-  - commands: ['move --workspace 0', 'focus --workspace 0']
+        window_class: { equals: 'rctrl_renwnd32' }
+  - commands: ['move --workspace 0']
     match:
       - window_process: { equals: 'chrome' }
         window_title: { regex: 'Google Chat' }
