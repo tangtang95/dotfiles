@@ -114,7 +114,7 @@ window_rules:
         window_class: { equals: 'SunAwtFrame' }
   - commands: ['move --workspace 3']
     match:
-      - window_process: { equals: 'idea64|webstorm64|jetbrains_client64' }
+      - window_process: { regex: 'idea64|webstorm64|jetbrains_client64' }
   - commands: ['move --workspace 8', 'focus --workspace 8']
     match:
       - window_process: { equals: 'ms-teams' }
