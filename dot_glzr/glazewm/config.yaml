@@ -103,8 +103,12 @@ window_rules:
         window_class: { not_regex: 'OpusApp' }
       - window_process: { equals: 'POWERPNT' }
         window_class: { not_regex: 'PPTFrameClass' }
-      - window_process: { regex: 'idea64|webstorm64|jetbrains_client64' }
+      - window_process: { regex: 'idea64|webstorm64|jetbrains_client64|gateway64' }
         window_class: { not_regex: 'SunAwtFrame' }
+      - window_process: { equals: 'msrdc' }
+  - commands: ['set-title-bar-visibility hidden']
+    match:
+      - window_process: { equals: 'alacritty' }
   - commands: ['set-floating']
     match:
       - window_process: { equals: 'WCCOAui' }
@@ -114,7 +118,7 @@ window_rules:
         window_class: { equals: 'SunAwtFrame' }
   - commands: ['move --workspace 3']
     match:
-      - window_process: { regex: 'idea64|webstorm64|jetbrains_client64' }
+      - window_process: { regex: 'idea64|webstorm64|jetbrains_client64|gateway64' }
   - commands: ['move --workspace 8', 'focus --workspace 8']
     match:
       - window_process: { equals: 'ms-teams' }
@@ -212,11 +216,11 @@ keybindings:
     bindings: ['alt+shift+w']
 
   # Launch apps
-  - commands: ['shell-exec wt']
+  - commands: ['shell-exec alacritty']
     bindings: ['alt+enter']
   - commands: ['shell-exec wezterm-gui']
     bindings: ['alt+w']
-  - commands: ['shell-exec chrome --profile-directory="Profile 2"']
+  - commands: ['shell-exec chrome']
     bindings: ['alt+b']
   - commands: ['shell-exec explorer']
     bindings: ['alt+e']
