@@ -13,6 +13,10 @@ To load the starship config, make sure to put the `starship.toml` in the `~/.con
 - Install WezTerm via *scoop*
 - To load the config file of WezTerm put the `wezterm` folder into .config folder using a symbolic link
 
+## Terminal (Alacritty)
+
+- If there are unalignment with nerd font icons, copy `conpty.dll` and `OpenConsole.exe` from Wezterm to `alacritty.exe` directory
+
 ## Other useful development CLI tools for specific languages
 
 This is a list of tools that can be installed through [scoop](https://scoop.sh):
