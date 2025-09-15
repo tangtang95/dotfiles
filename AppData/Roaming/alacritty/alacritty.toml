@@ -1,12 +1,14 @@
-shell = {program = "wsl", args = ["--cd ~"]}
-# shell = {program = "nu"}
-
-[window]
-dimensions = { columns = 120, lines = 30 }
+[terminal]
+shell = {program = "wsl", args = ["--cd ~", "-- zellij"]}
+osc52 = "Disabled"
 
 [font]
-normal = { family = "CaskaydiaCove Nerd Font"}
-size = 12
+normal = { family = "JetBrainsMono Nerd Font Mono" }
+size = 12.5
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+vi_mode_style = { shape = "Block", blinking = "Off" }
 
 # Catppuccin Mocha colors
 [colors.primary]
@@ -84,3 +86,4 @@ color = "#FAB387"
 [[colors.indexed_colors]]
 index = 17
 color = "#F5E0DC"
+
