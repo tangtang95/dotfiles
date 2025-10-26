@@ -20,5 +20,6 @@
   layout = "LOCAL,MERGED,REMOTE"
 [credential]
 	helper = store
+  credentialStore = dpapi
 [init]
 	defaultBranch = main
