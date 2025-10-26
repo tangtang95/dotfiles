@@ -18,7 +18,7 @@
   keepBackup = false
 [mergetool "vimdiff"]
   layout = "LOCAL,MERGED,REMOTE"
-[credential "helperselector"]
-	selected = store
+[credential]
+	helper = store
 [init]
 	defaultBranch = main
