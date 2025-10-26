@@ -1,11 +1,15 @@
 [core]
 	editor = nvim
+  pager = delta
 [user]
 	email = tangtang2995@gmail.com
 	name = Tangtang Zhou
 [alias]
 	pfl = push --force-with-lease
 	log1l = log --oneline
+[delta]
+  dark = true
+  navigate = true
 [push]
 	default = current
 	autoSetupRemote = true

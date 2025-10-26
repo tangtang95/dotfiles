@@ -1,6 +1,7 @@
 # version = "0.101.0"
 
 $env.EDITOR = "nvim"
+$env.TERM = "xterm"
 
 # starship setup
 #mkdir ~/.cache/starship
