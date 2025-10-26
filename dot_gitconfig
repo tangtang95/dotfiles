@@ -1,6 +1,7 @@
 [core]
 	editor = nvim
   pager = delta
+  longpaths = true
 [user]
 	email = tangtang2995@gmail.com
 	name = Tangtang Zhou
