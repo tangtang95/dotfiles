@@ -6,7 +6,7 @@ use ~/AppData/Roaming/nushell/themes/catppuccin-mocha.nu
 
 let carapace_completer = {|spans|
   # if the current command is an alias, get it's expansion
-  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)
+  let expanded_alias = (scope aliases | where name == $spans.0 | get -o 0 | get -o expansion)
 
   # overwrite
   let spans = (if $expanded_alias != null  {
@@ -26,7 +26,7 @@ let zoxide_completer = {|spans|
 let external_completer = {|spans|
   let expanded_alias = scope aliases
   | where name == $spans.0
-  | get -i 0.expansion
+  | get -o 0.expansion
 
   let spans = if $expanded_alias != null {
     $spans
@@ -88,6 +88,5 @@ alias aws-cred-set = ~/SiemensProjects/aws-cred-set.bat
 alias pk8s = python ~/SiemensProjects/incubator/k8s-port-forward/k8s_port_forward.py
 
 # Modules
-use ~/AppData/Roaming/nushell/modules/.starship.nu
 source ~/AppData/Roaming/nushell/modules/.zoxide.nu
 

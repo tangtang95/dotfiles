@@ -19,6 +19,6 @@
 [mergetool "vimdiff"]
   layout = "LOCAL,MERGED,REMOTE"
 [credential "helperselector"]
-	selected = manager
+	selected = store
 [init]
 	defaultBranch = main
